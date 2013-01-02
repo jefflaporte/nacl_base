@@ -11,3 +11,14 @@
 *.lai
 *.la
 *.a
+
+*.tlog
+*.obj
+
+*.log
+*.lastbuildstate
+*.user
+*.cache
+chrome_data
+*.nexe
+*.suo

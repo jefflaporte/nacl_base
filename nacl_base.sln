@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ppapi_main", "external\ppapi_main\ppapi_main.vcxproj", "{BD80A7AA-62B0-456A-A93A-D4A033E15214}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nacl_mounts", "external\nacl_mounts\nacl_mounts.vcxproj", "{033B274A-ACF8-4D98-9F1B-05EA4CD984F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello_world", "hello_world\hello_world.vcxproj", "{A8822E0E-9C2F-4700-818E-3BDF9E718402}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|NaCl64 = Debug|NaCl64
+		Release|NaCl64 = Release|NaCl64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD80A7AA-62B0-456A-A93A-D4A033E15214}.Debug|NaCl64.ActiveCfg = Debug|NaCl64
+		{BD80A7AA-62B0-456A-A93A-D4A033E15214}.Debug|NaCl64.Build.0 = Debug|NaCl64
+		{BD80A7AA-62B0-456A-A93A-D4A033E15214}.Release|NaCl64.ActiveCfg = Release|NaCl64
+		{BD80A7AA-62B0-456A-A93A-D4A033E15214}.Release|NaCl64.Build.0 = Release|NaCl64
+		{033B274A-ACF8-4D98-9F1B-05EA4CD984F8}.Debug|NaCl64.ActiveCfg = Debug|NaCl64
+		{033B274A-ACF8-4D98-9F1B-05EA4CD984F8}.Debug|NaCl64.Build.0 = Debug|NaCl64
+		{033B274A-ACF8-4D98-9F1B-05EA4CD984F8}.Release|NaCl64.ActiveCfg = Release|NaCl64
+		{033B274A-ACF8-4D98-9F1B-05EA4CD984F8}.Release|NaCl64.Build.0 = Release|NaCl64
+		{A8822E0E-9C2F-4700-818E-3BDF9E718402}.Debug|NaCl64.ActiveCfg = Debug|NaCl64
+		{A8822E0E-9C2F-4700-818E-3BDF9E718402}.Debug|NaCl64.Build.0 = Debug|NaCl64
+		{A8822E0E-9C2F-4700-818E-3BDF9E718402}.Release|NaCl64.ActiveCfg = Release|NaCl64
+		{A8822E0E-9C2F-4700-818E-3BDF9E718402}.Release|NaCl64.Build.0 = Release|NaCl64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+{
+  "files": {},
+  "program": {
+    "x86-64": {
+      "url": "hello_world_64.nexe"
+    }
+  }
+}
